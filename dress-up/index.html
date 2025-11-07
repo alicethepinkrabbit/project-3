@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <main class="page game-frame">
+  <!-- optional title bar -->
+  <div class="crt-title">FALL FASHIONS</div>
+
+  <!-- rails create the leopard sides -->
+  <div class="rail left-rail" aria-hidden="true"></div>
+
+  <section class="stage">
+
+    <!-- TOP PANEL -->
+    <div class="panel">
+      <div class="viewport">
+        <img id="img-top" alt="top preview" />
+      </div>
+
+      <div class="controls" data-kind="top">
+        <button class="ctrl" data-step="-5" aria-label="jump back">«</button>
+        <button class="ctrl" data-step="-1" aria-label="previous">‹</button>
+        <button class="ctrl" data-step="1"  aria-label="next">›</button>
+        <button class="ctrl" data-step="5"  aria-label="jump forward">»</button>
+      </div>
+    </div>
+
+    <!-- BOTTOM PANEL -->
+    <div class="panel">
+      <div class="viewport">
+        <img id="img-bottom" alt="bottom preview" />
+      </div>
+
+      <div class="controls" data-kind="bottom">
+        <button class="ctrl" data-step="-5" aria-label="jump back">«</button>
+        <button class="ctrl" data-step="-1" aria-label="previous">‹</button>
+        <button class="ctrl" data-step="1"  aria-label="next">›</button>
+        <button class="ctrl" data-step="5"  aria-label="jump forward">»</button>
+      </div>
+    </div>
+
+    <a class="btn moveon" href="../category/index.html">move on</a>
+  </section>
+
+  <div class="rail right-rail" aria-hidden="true"></div>
+</main>
+</body>
+</html>
