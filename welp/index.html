@@ -1,25 +1,36 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body class="archive">
-     <main>
+  <main>
     <header class="topbar">
       <nav class="tabs" aria-label="Categories">
-        <a class="tab active" href="../welp/index.html">welp</a>
-        <a class="tab" href="../wierd/index.html">weird</a>
-        <a class="tab" href="../classy/index.html">classy</a>
+        <a class="tab active welp" href="../welp/index.html">welp</a>
+        <a class="tab wierd" href="../wierd/index.html">weird</a>
+        <a class="tab classy" href="../classy/index.html">classy</a>
         <a class="tab" href="../cozy/index.html">cozy</a>
       </nav>
     </header>
 
-    <div class="textbox category-name">welp</div>
+    <div class="page-nav">
+      <a class="nav-btn prev" href="../category/index.html">
+        <img src="../images/nav-back.png" alt="Back to categories">
+      </a>
+      <a class="nav-btn next" href="../bye/index.html">
+        <img src="../images/nav-forv.png" alt="Next category: weird">
+      </a>
+    </div>
+
+    <div class="category-name welp">WELP</div>
 
     <section class="grid">
-      <!-- Duplicate cards as needed and swap src/text -->
+
       <article class="card">
         <img src="../images/placeholders/p1.jpg" alt="Item" />
         <div class="txt">Write something about the piece.</div>
@@ -35,4 +46,5 @@
     </section>
   </main>
 </body>
+
 </html>
