@@ -287,11 +287,13 @@ body {
   display: grid;
   place-items: center;
   aspect-ratio: 4 / 3;
+  height: auto;
+  padding: 4px;
 }
 
 .viewport img {
-  max-width: 95%;
-  max-height: 90%;
+  max-width: 150px;
+  width: auto;
   object-fit: contain;
   display: block;
 }
