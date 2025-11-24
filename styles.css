@@ -160,6 +160,7 @@ body {
 .card .txt {
   padding: 8px;
   font-size: 13px;
+  text-align: center;
 }
 
 .game {
